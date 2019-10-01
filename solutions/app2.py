@@ -76,7 +76,8 @@ def display_results(k, value0, value1):
     prediction=model.predict(new_observation)
     specieslist=['setosa', 'versicolor', 'virginica']
     species_prediction=specieslist[prediction[0]]
-    return f'The number of neighbors is {k} and the predicted species is "{species_prediction}"'
+    return f'For a flower with sepal length {value0} and petal length {value1}, the predicted species is "{specieslist[species]}".'
+
 
 ############ Execute the app
 if __name__ == '__main__':
