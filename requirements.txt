@@ -10,7 +10,7 @@ future==0.17.1
 gunicorn==19.9.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
-joblib==0.13.2
+joblib==1.2.0
 MarkupSafe==1.1.1
 numpy==1.17.2
 pandas==0.25.1
